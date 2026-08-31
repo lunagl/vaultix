@@ -130,7 +130,7 @@
             pre-commit = {
               check.enable = true;
               settings.hooks = {
-                nixfmt-rfc-style.enable = true;
+                nixfmt.enable = true;
                 # clippy = {
                 #   enable = true;
                 #   packageOverrides.cargo = pkgs.cargo;
